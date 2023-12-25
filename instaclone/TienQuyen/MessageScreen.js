@@ -53,14 +53,14 @@ const MessageItem = ({ sender, message, image, time }) => {
   
   return (
     <View style={sender === 'You' ? [styles.itemRight] : [styles.itemLeft]}>
-      <View style={{height: '100%', justifyContent: 'flex-end'}}>
+      <View style={{justifyContent: 'flex-end'}}>
         <Image source={image} style={[styles.image, sender==='You' ? {marginLeft: 10}:{marginRight: 10}]} />
       </View>      
       <View style={[styles.textContainer]}>
         <Text style={[styles.message, sender==='You' ? {borderBottomRightRadius:3, backgroundColor: '#4395F8', color: 'white'}:{borderBottomLeftRadius: 3, backgroundColor: '#F1F2F3', color: 'black'}]}>{message}</Text>
         {/* <Text style={styles.time}>{time}</Text> */}
       </View>
-      <View style={{height: '100%', justifyContent: 'flex-end'}}>
+      <View style={{justifyContent: 'flex-end'}}>
         <Image style={[styles.image,{marginLeft: 10}]} />
       </View> 
     </View>

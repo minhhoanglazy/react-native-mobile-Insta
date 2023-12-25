@@ -89,12 +89,12 @@ function Loginemail ({navigation})
                     Sign in with phone number
                 </Text>
             </TouchableHighlight>
-            <View style={{ width: '100%', height: 40, marginTop: 20, alignItems: 'center' }}>
+            {/* <View style={{ width: '100%', height: 40, marginTop: 20, alignItems: 'center' }}>
                 <Text>Gía trị đã lưu: {savedEmail}</Text>
             </View>
             <View style={{ width: '100%', height: 40, marginTop: 20, alignItems: 'center' }}>
                 <Text >Gía trị đã lưu: {password}</Text>
-            </View>
+            </View> */}
         </SafeAreaView>
     );
     

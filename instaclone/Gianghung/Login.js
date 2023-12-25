@@ -126,9 +126,9 @@ function Login ({navigation})
                     Sign in with google
                 </Text>
             </TouchableHighlight>
-            <View style={{ width: '100%', height: 40, marginTop: 20, alignItems: 'center' }}>
+            {/* <View style={{ width: '100%', height: 40, marginTop: 20, alignItems: 'center' }}>
                 <Text>Giá trị đã lưu: {Phone}</Text>
-            </View>
+            </View> */}
         </SafeAreaView>
     );
     
