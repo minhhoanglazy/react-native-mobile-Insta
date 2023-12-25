@@ -86,50 +86,50 @@ const MessageDetailScreen = ({ }) => {
                 </View>
                 <View style={{width: '95%', paddingTop: 20}}>
                     <Text style={{color: '#969696', flex: 1}}>Tùy Chỉnh</Text>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15, flex: 1}]}>Chủ đề</Text>
                         <MaterialIcons name="radio-button-unchecked" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Cảm xúc nhanh</Text>
                         <MaterialIcons name="thumb-up" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Biệt danh</Text>
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]} >Hiệu ứng từ ngữ</Text>
                         <MaterialIcons name="auto-fix-high" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
                     <Text style={{color: '#969696', flex: 1}}>Hành động khác</Text>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15, flex: 1}]}>Chủ đề</Text>
                         <MaterialIcons name="radio-button-unchecked" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Cảm xúc nhanh</Text>
                         <MaterialIcons name="thumb-up" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Biệt danh</Text>
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]} >Hiệu ứng từ ngữ</Text>
                         <MaterialIcons name="auto-fix-high" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
                     <Text style={{color: '#969696', flex: 1}}>Tùy Chỉnh</Text>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15, flex: 1}]}>Chủ đề</Text>
                         <MaterialIcons name="radio-button-unchecked" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Cảm xúc nhanh</Text>
                         <MaterialIcons name="thumb-up" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]}>Biệt danh</Text>
                     </View>
-                    <View style={{flexDirection: 'row', with: '100%'}}>
+                    <View style={{flexDirection: 'row', width: '100%'}}>
                         <Text style={[styles.choise, {fontSize: 15}]} >Hiệu ứng từ ngữ</Text>
                         <MaterialIcons name="auto-fix-high" style={{paddingTop: 15}} size={24} color="blue" />
                     </View>
